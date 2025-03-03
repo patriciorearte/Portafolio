@@ -1,0 +1,167 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Sobre Mí Section */
+#sobre-mi {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+#sobre-mi h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#sobre-mi p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Proyectos Section */
+#proyectos {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+#proyectos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.proyecto {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Contacto Section */
+#contacto {
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+#contacto h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contacto p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#contacto ul {
+    text-align: center;
+    padding: 0;
+}
+
+#contacto ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#contacto ul li a {
+    font-size: 1.5em;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contacto ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin: 0;
+}
